@@ -1,0 +1,12 @@
+language: scala
+
+scala:
+  - 2.13.1
+
+jdk:
+  - openjdk11
+
+script:
+  - sbt new aiyanbo/sbt-simple-project.g8 --name=test --sbt_version=1.3.9 --organization=org.jmotor
+  - cd test
+  - sbt test
