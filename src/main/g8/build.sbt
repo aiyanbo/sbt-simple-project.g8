@@ -9,5 +9,3 @@ organization := "$organization$"
 scalaVersion := Versions.scala212
 
 libraryDependencies ++= dependencies
-
-enablePlugins(PackPlugin)
